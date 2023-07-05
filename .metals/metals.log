@@ -1,0 +1,110 @@
+2023.07.03 15:25:48 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04' for client Visual Studio Code 1.79.2.
+Jul 03, 2023 3:25:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 03, 2023 3:25:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 03, 2023 3:25:48 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 03, 2023 3:25:48 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\.metals\metals (H2 2.1)
+Jul 03, 2023 3:25:48 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 03, 2023 3:25:48 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.039s)
+Jul 03, 2023 3:25:48 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 03, 2023 3:25:49 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 03, 2023 3:25:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 03, 2023 3:25:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 03, 2023 3:25:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 03, 2023 3:25:49 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 03, 2023 3:25:49 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.119s)
+2023.07.03 15:25:49 INFO  time: initialize in 1.29s
+2023.07.03 15:25:52 WARN  Build server is not auto-connectable.
+2023.07.03 15:25:52 WARN  no build tool detected in workspace 'C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.03 15:26:37 INFO  
+2023.07.03 15:26:37 INFO  Template applied in C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\.\tutorial04
+2023.07.03 15:26:37 INFO  
+2023.07.03 15:26:37 INFO  time: ran 'giter8.Giter8' in 5.54s
+2023.07.03 15:26:42 INFO  Shutting down server
+2023.07.03 15:26:42 INFO  shutting down Metals
+2023.07.03 15:26:42 INFO  Exiting server
+2023.07.04 11:39:41 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04' for client Visual Studio Code 1.79.2.
+Jul 04, 2023 11:39:41 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 04, 2023 11:39:41 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 04, 2023 11:39:41 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 04, 2023 11:39:42 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\.metals\metals (H2 2.1)
+Jul 04, 2023 11:39:42 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.048s)
+Jul 04, 2023 11:39:42 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 04, 2023 11:39:42 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.04 11:39:42 INFO  time: initialize in 1.17s
+2023.07.04 11:39:47 WARN  Build server is not auto-connectable.
+2023.07.04 11:39:47 WARN  no build tool detected in workspace 'C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.04 11:39:47 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\tutorial04\src\main\scala\Question03.scala
+2023.07.04 11:39:55 INFO  no build target found for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\tutorial04\src\main\scala\Question03.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.04 11:40:01 INFO  time: code lens generation in 13s
+Jul 04, 2023 11:40:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Jul 04, 2023 11:40:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 65
+Jul 04, 2023 11:41:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 97
+Jul 04, 2023 11:41:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 109
+Jul 04, 2023 11:43:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 209
+Jul 04, 2023 11:45:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 292
+Jul 04, 2023 11:45:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 332
+2023.07.04 11:56:59 INFO  Shutting down server
+2023.07.04 11:56:59 INFO  shutting down Metals
+2023.07.04 11:56:59 INFO  Exiting server
+2023.07.05 06:24:50 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04' for client Visual Studio Code 1.79.2.
+Jul 05, 2023 6:24:50 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 05, 2023 6:24:50 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 05, 2023 6:24:50 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 05, 2023 6:24:51 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\.metals\metals (H2 2.1)
+Jul 05, 2023 6:24:51 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.090s)
+Jul 05, 2023 6:24:51 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 05, 2023 6:24:51 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.05 06:24:52 INFO  time: initialize in 1.44s
+2023.07.05 06:24:57 WARN  Build server is not auto-connectable.
+2023.07.05 06:24:57 WARN  no build tool detected in workspace 'C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.07.05 06:24:57 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\tutorial04\src\main\scala\Question03.scala
+2023.07.05 06:25:08 INFO  no build target found for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\tutorial04\src\main\scala\Question03.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.05 06:25:13 INFO  time: code lens generation in 15s
+Jul 05, 2023 6:28:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 154
+Jul 05, 2023 6:28:21 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 164
+Jul 05, 2023 6:28:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 169
+Jul 05, 2023 6:28:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 173
+Jul 05, 2023 6:28:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 181
+2023.07.05 06:28:39 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\tutorial04\src\main\scala\Question03.scala
+2023.07.05 06:29:41 INFO  Shutting down server
+2023.07.05 06:29:41 INFO  shutting down Metals
+2023.07.05 06:29:41 INFO  Exiting server
