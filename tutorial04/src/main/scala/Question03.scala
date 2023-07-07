@@ -25,15 +25,8 @@ def formatNames(name: String)(formatFunction: String => String): String = {
 }
 
 object Question03 extends App{
-    val names = List("Benny", "Niroshan", "Saman", "Kumara");
-
-    for (name <- names) {
-      val upperCaseName = formatNames(name)(toUpper);
-      println(upperCaseName);
-      
-      val lowerCaseName = formatNames(name)(toLower);
-      println(lowerCaseName);
-      
-      println();
-    }
+    println(formatNames("Benny")(toUpper));
+    println(formatNames("Ni")(toUpper) + "roshan");
+    println(formatNames("S")(toLower) + "aman");
+    println("kumar" + formatNames("a")(toUpper));
 }
